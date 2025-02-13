@@ -106,6 +106,7 @@ export default function Calendar() {
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
           className="mt-8 bg-gray-900 bg-opacity-50 p-6 rounded-xl shadow-xl"
+          
         >
           <EventForm date={selectedDate} />
           <EventList date={selectedDate} />
